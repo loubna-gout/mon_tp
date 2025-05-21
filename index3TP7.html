@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    
+</head>
+<body>
+    <h1>TP formulaire avec PHP</h1>
+    <hr>
+    <form action="reponce2_TP7.php" method="post">
+
+  <select name="titre">
+    <option>Mlle</option><option selected>Mme</option><option>M.</option>
+  </select>
+
+  <label for="nom"> Nom : </label><input type="text" name="nom" id="nom" placeholder="Entrez votre nom" /><br/><br/>
+  <label for="prenom">Prénom : </label><input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" /><br/><br/>
+  <label for="annee">Votre année de naissance : </label><input type="text" name="annee" id="annee" placeholder="2019" /> <br/><br/>
+  <label for="identifiant"> Donnez un identifiant : </label><input type="text" name="identifiant" placeholder="id" /> <br/><br/>
+  <label for="mdp"> Donnez un mot de passe : </label><input type="password" name="mdp" placeholder="mot de passe" /> <br/><br/>
+  <label for="sexe">Sexe : </label>
+  <input type="radio" name="sexe" id="sexe" value="H" checked /> Masculin
+  <input type="radio" name="sexe" value="F" /> Féminin
+
+ 
+  <br/><br/>
+  <input type="checkbox" name="debutant" checked="checked" /> Je débute en PHP<br/><br/>
+
+  <input type="submit" name="btOK" value="Envoyer">
+</form>
+<hr>
+
+</body>
+</html>
